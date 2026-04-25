@@ -1,0 +1,10 @@
+---
+title: "IA Agéntica Clínica"
+author: "Carlos Alberto Villa Tobón"
+format: html
+---
+
+## Análisis de Sistemas Complejos
+Investigación sobre la convergencia entre **Neurociencia** e **Ingeniería**.
+
+Este nodo ahora es funcional y está listo para ser renderizado.

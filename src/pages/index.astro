@@ -1,11 +1,128 @@
 ---
-import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import Molecule from '../components/Molecule';
 ---
 
-<Layout>
-	<Welcome />
+<Layout title="Carlos Alberto Villa Tobón | Neurociencias & IA">
+	<main class="main-wrapper">
+		
+		<header class="scientific-header">
+			<h1 class="name-title">Carlos Alberto Villa Tobón</h1>
+			<div class="glow-line"></div>
+		</header>
+		
+		<section class="molecule-frame">
+			<div class="overlay-gradient"></div>
+			<Molecule client:load />
+		</section>
+
+		<nav class="action-bar">
+			<a href="/CV_Carlos_Villa.pdf" target="_blank" class="btn-lab">Ver CV</a>
+			
+			<a href="/CV_Carlos_Villa.pdf" download="CV_Carlos_Villa_Tobon" class="btn-lab">Descargar</a>
+			
+			<button class="btn-lab active" id="data-btn">Te lo cuento con datos</button>
+			
+			<a href="https://neurociencia-clinica-carlos.vercel.app/" target="_blank" class="btn-lab btn-special">
+				Neurociencia Clínica
+			</a>
+		</nav>
+
+		<footer class="scientific-footer">
+			<p>SISTEMAS // PSICOLOGÍA // NEUROCIENCIAS // CDMX 2026</p>
+		</footer>
+
+	</main>
 </Layout>
+
+<script>
+	// Lógica simple para el botón de datos mientras creamos el dashboard
+	const btn = document.getElementById('data-btn');
+	btn?.addEventListener('click', () => {
+		alert("Cargando matriz de competencias y métricas científicas...");
+		// Aquí redireccionaremos a /datos cuando la tengamos lista
+	});
+</script>
+
+<style>
+	.main-wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		min-height: 100vh;
+		background-color: #020617;
+		color: #f8fafc;
+		padding: 40px;
+		font-family: 'Inter', system-ui, sans-serif;
+	}
+
+	.scientific-header { text-align: center; margin-bottom: 2rem; }
+	.name-title {
+		font-weight: 100;
+		letter-spacing: 0.5em;
+		text-transform: uppercase;
+		font-size: clamp(1.1rem, 4vw, 2.5rem);
+		margin: 0;
+	}
+	.glow-line {
+		height: 1px;
+		width: 80px;
+		background: linear-gradient(90deg, transparent, #00f2ff, transparent);
+		margin: 15px auto;
+		box-shadow: 0 0 15px rgba(0, 242, 255, 0.5);
+	}
+
+	.molecule-frame {
+		width: 100%;
+		max-width: 1100px;
+		height: 60vh;
+		border: 1px solid rgba(255, 255, 255, 0.07);
+		border-radius: 40px;
+		background: radial-gradient(circle at center, rgba(0, 242, 255, 0.02) 0%, transparent 80%);
+		position: relative;
+		overflow: hidden;
+		margin-bottom: 2.5rem;
+	}
+
+	.action-bar { display: flex; gap: 15px; flex-wrap: wrap; justify-content: center; z-index: 20; }
+	
+	.btn-lab {
+		background: rgba(255, 255, 255, 0.02);
+		border: 1px solid rgba(255, 255, 255, 0.1);
+		color: #94a3b8;
+		padding: 12px 28px;
+		border-radius: 100px;
+		text-transform: uppercase;
+		font-size: 10px;
+		letter-spacing: 2px;
+		cursor: pointer;
+		transition: all 0.4s ease;
+		text-decoration: none;
+		display: inline-flex;
+		align-items: center;
+	}
+
+	.btn-lab:hover {
+		border-color: #00f2ff;
+		color: #00f2ff;
+		background: rgba(0, 242, 255, 0.05);
+	}
+
+	.btn-lab.active {
+		background: rgba(0, 242, 255, 0.1);
+		border-color: #00f2ff;
+		color: #fff;
+		box-shadow: 0 0 20px rgba(0, 242, 255, 0.2);
+	}
+
+	.btn-special { border-color: rgba(0, 242, 255, 0.3); color: #00f2ff; }
+
+	.scientific-footer {
+		margin-top: 3rem;
+		opacity: 0.3;
+		font-family: monospace;
+		font-size: 9px;
+		letter-spacing: 3px;
+	}
+</style>
