@@ -17,6 +17,18 @@ import Molecule from '../components/Molecule';
 		</section>
 
 		<nav class="action-bar">
+			<a href="/CV_Carlos_Villa.pdf" target="_blank" class="btn-lab">Ver CV</a>
+			
+			<a href="/CV_Carlos_Villa.pdf" download="CV_Carlos_Villa_Tobon" class="btn-lab">Descargar</a>
+			
+			<button class="btn-lab active" id="data-btn">Te lo cuento con datos</button>
+			
+			<a href="https://neurociencia-clinica-carlos.vercel.app/" target="_blank" class="btn-lab btn-special">
+				Neurociencia Clínica
+			</a>
+		</nav>
+
+		<footer clas<nav class="action-bar">
     <a href="/CV_Carlos_Villa.pdf" target="_blank" class="btn-lab">Ver CV</a>
     
     <a href="/CV_Carlos_Villa.pdf" download="CV_Carlos_Villa_Tobon" class="btn-lab">Descargar</a>
@@ -27,8 +39,7 @@ import Molecule from '../components/Molecule';
         Neurociencia Clínica
     </a>
 </nav>
-
-		<footer class="scientific-footer">
+s="scientific-footer">
 			<p>SISTEMAS // PSICOLOGÍA // NEUROCIENCIAS // CDMX 2026</p>
 		</footer>
 

@@ -1,0 +1,99 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Te lo cuento con datos | Carlos Villa">
+	<main class="data-page">
+		<header class="data-header">
+			<a href="/" class="back-link">← Volver al núcleo</a>
+			<h1 class="glitch-text">Convergencia de Dominios</h1>
+			<p class="subtitle">Propósito: Medir lo intangible con precisión de ingeniería.</p>
+		</header>
+
+		<section class="story-grid">
+			<div class="narrative-box">
+				<h2>El Propósito</h2>
+				<p>
+					Mi trayectoria no es una suma de títulos, sino una **integración de capas**. 
+					Como psicólogo y neurocientífico, entiendo el *qué* y el *porqué* del comportamiento. 
+					Como ingeniero de sistemas y biotecnólogo, entiendo el *cómo* del soporte físico y digital.
+				</p>
+				<p>
+					**La visión:** Utilizar la Ciencia de Datos como el puente que traduce impulsos neuronales y procesos biotecnológicos en evidencia científica sólida. Busco eliminar la subjetividad de la clínica mediante el rigor del dato.
+				</p>
+			</div>
+
+			<div class="metrics-box">
+				<div class="metric-item">
+					<span class="label">Hardware (Biotecnología & Sistemas)</span>
+					<div class="bar-bg"><div class="bar-fill" style="width: 95%;"></div></div>
+					<p class="desc">Infraestructura biológica y computacional.</p>
+				</div>
+				<div class="metric-item">
+					<span class="label">Software (Psicología & Neurociencia)</span>
+					<div class="bar-bg"><div class="bar-fill" style="width: 90%;"></div></div>
+					<p class="desc">Algoritmos cognitivos y redes neuronales.</p>
+				</div>
+				<div class="metric-item">
+					<span class="label">Traductor (Data Science)</span>
+					<div class="bar-bg"><div class="bar-fill" style="width: 85%;"></div></div>
+					<p class="desc">Medición, efectividad e investigación seria.</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="purpose-vision">
+			<div class="vision-card">
+				<h3>🧬 Wetware & Biotec</h3>
+				<p>Entendiendo la base molecular para intervenir en la salud con precisión.</p>
+			</div>
+			<div class="vision-card active">
+				<h3>🧠 Neuro-Clínica</h3>
+				<p>El objetivo final: Una clínica basada en datos, no solo en observación.</p>
+			</div>
+			<div class="vision-card">
+				<h3>🖥️ AI Agéntica</h3>
+				<p>Sistemas que asisten al diagnóstico clínico con evidencia científica.</p>
+			</div>
+		</section>
+	</main>
+</Layout>
+
+<style>
+	.data-page {
+		background-color: #020617;
+		min-height: 100vh;
+		color: #f1f5f9;
+		padding: 60px 20px;
+		max-width: 1200px;
+		margin: 0 auto;
+		font-family: 'Inter', sans-serif;
+	}
+	.back-link { color: #00f2ff; text-decoration: none; font-size: 12px; text-transform: uppercase; letter-spacing: 2px; }
+	.data-header { margin-bottom: 60px; }
+	.glitch-text { font-size: 3rem; font-weight: 100; letter-spacing: 10px; text-transform: uppercase; margin-top: 20px; }
+	
+	.story-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 40px;
+		margin-bottom: 60px;
+	}
+	.narrative-box { background: rgba(255,255,255,0.03); padding: 40px; border-radius: 20px; border-left: 2px solid #00f2ff; }
+	.narrative-box h2 { color: #00f2ff; font-weight: 300; margin-bottom: 20px; }
+	.narrative-box p { line-height: 1.8; opacity: 0.8; margin-bottom: 15px; }
+
+	.metric-item { margin-bottom: 30px; }
+	.label { font-size: 10px; text-transform: uppercase; letter-spacing: 2px; opacity: 0.6; }
+	.bar-bg { background: rgba(255,255,255,0.05); height: 4px; border-radius: 2px; margin: 10px 0; }
+	.bar-fill { background: #00f2ff; height: 100%; box-shadow: 0 0 10px #00f2ff; }
+	.desc { font-size: 12px; opacity: 0.5; font-style: italic; }
+
+	.purpose-vision { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+	.vision-card { background: rgba(255,255,255,0.02); padding: 30px; border-radius: 15px; border: 1px solid rgba(255,255,255,0.05); transition: 0.3s; }
+	.vision-card.active { border-color: #00f2ff; background: rgba(0,242,255,0.03); }
+	.vision-card h3 { font-size: 14px; color: #00f2ff; margin-bottom: 10px; }
+	.vision-card p { font-size: 13px; opacity: 0.7; }
+
+	@media (max-width: 768px) { .story-grid, .purpose-vision { grid-template-columns: 1fr; } }
+</style>
