@@ -9,49 +9,66 @@ format:
 ---
 
 # Carlos Alberto Villa Tobón
-**AI/MLOps Engineer & Architect of Generative AI Agents | [cite_start]Behavioral Data Science** [cite: 57, 189]
-*Ciudad de México* | [cite_start][carlosvillatobon@gmail.com](mailto:carlosvillatobon@gmail.com) [cite: 58, 187]
+[← Volver al Núcleo del Portafolio](/)
+
+**Neurocientifico | Cientifico de Datos | AI/MLOps Engineer | Psicólogo Clínico | Ing en Biotecnologia**
+*Ciudad de México* | [carlosvillatobon@gmail.com](mailto:carlosvillatobon@gmail.com) | +52 55 1064 5143
 
 ---
 
 ## 👨‍🔬 Perfil Profesional
-[cite_start]Psicólogo e Ingeniero en Sistemas especializado en inteligencia artificial y análisis de datos[cite: 156, 189]. [cite_start]Combino conocimientos sólidos en Neurociencias con habilidades técnicas en arquitectura de agentes (Gemini), modelos de IA avanzados y metodologías ágiles[cite: 157, 190].
+Perfil multidisciplinario con sólida formación en Ingeniería en Sistemas, Neurociencias y Psicología Clínica. Especialista en el desarrollo de arquitecturas de agentes de IA (Gemini) y Ciencia de Datos aplicada al comportamiento humano. Mi enfoque integra el rigor técnico de la ingeniería con el análisis clínico profundo para desarrollar soluciones de salud mental y biotecnología basadas en evidencia.
 
 ---
 
-## 🎓 Educación y Formación Superior
+## 🎓 Formación Académica Superior
 
-* **Maestría en Ciencia de Datos** – UTEL (En curso) [cite: 83, 199]
-* [cite_start]**Maestría en Neurociencia Cognitiva y de la Conducta** – Universidad Humaslow (Último semestre) [cite: 84, 198]
-* [cite_start]**Ingeniería en Biotecnología** – (Iniciando) [cite: 5]
-* **Ingeniería en Sistemas Computacionales** – UTEL (Graduado) [cite: 85, 200]
-* [cite_start]**Licenciatura en Psicología Organizacional** – UTEL (Graduado) [cite: 86, 201]
+### Posgrado y Grado
+* **Maestría en Ciencia de Datos** – UTEL (En curso)
+* **Maestría en Neurociencia Cognitiva y de la Conducta** – Universidad Humaslow (Último semestre)
+* **Ingeniería en Biotecnología** – (Iniciando)
+* **Ingeniería en Sistemas Computacionales** – UTEL (Graduado)
+* **Licenciatura en Psicología Organizacional** – UTEL (Graduado)
 
-### Especialidades y Diplomados
-* [cite_start]**Diplomado en Logoterapia** – Casa Viktor Frankl [cite: 171]
-* **Diplomado en Manejo de Equipos y Metodologías Ágiles** (Scrum Master) [cite: 93, 176, 205]
-* [cite_start]**Diplomado en Neuropsicología Clínica** – CIL LATAM [cite: 172]
+### Especializaciones y Diplomados
+* **Diplomado en Logoterapia** – Casa Viktor Frankl
+* **Diplomado en Manejo de Equipos y Metodologías Ágiles** (Scrum Master)
+* **Diplomado en Neuropsicología Clínica** – CIL LATAM
 
 ---
 
-## 💼 Experiencia Relevante
+## 💼 Experiencia Profesional Relevante
 
 ### Psicólogo Clínico e Investigador de IA Aplicada
-*Consultorio Privado | [cite_start]2023 – Actualidad* [cite: 161, 191]
-* [cite_start]Atención clínica individual con enfoque en salud emocional y aplicación de modelos de IA para el bienestar psicológico[cite: 162, 192].
-* [cite_start]Desarrollo de agentes de IA basados en **Gemini** para la automatización de análisis de datos complejos[cite: 67].
+*Consultorio Privado | 2023 – Actualidad*
+* **Práctica Clínica:** Intervención clínica individual con enfoque en salud emocional y procesos de autorregulación.
+* **Investigación & IA:** Desarrollo de arquitecturas de agentes inteligentes (Gemini) para la optimización de diagnósticos clínicos y análisis de datos conductuales.
+* **Modelado de Datos:** Implementación de modelos predictivos aplicados al bienestar psicológico.
 
 ### Consultor de Innovación | L'Oréal Professionnel Paris
-[cite_start]*2015 – 2020* [cite: 72, 73, 165]
-* [cite_start]Estrategia basada en datos para el posicionamiento de marca y análisis de tendencias de mercado[cite: 74, 166].
+*2015 – 2020*
+* Implementación de estrategias de posicionamiento de marca basadas en el análisis de datos comerciales y tendencias de mercado de alta escala.
 
 ### Líder de Proyecto e Innovación | Expo Batalla de los Barberos LATAM
-[cite_start]*2015 – 2020* [cite: 76, 163, 193]
-* [cite_start]Gestión de proyectos tecnológicos y dirección de equipos bajo metodologías ágiles[cite: 78, 79, 194].
+*2015 – 2020*
+* Dirección de proyectos tecnológicos y coordinación de equipos multidisciplinarios bajo marcos de trabajo ágiles (Scrum).
 
 ---
 
-## 🏅 Certificaciones Clave
-* **Google Gemini Immersion** (Google / Alura) [cite: 88, 210]
-* [cite_start]**Data Science & Machine Learning** (AWS / Google AI) [cite: 91, 174, 203]
-* [cite_start]**Oracle Cloud Infrastructure:** Data, Security & Governance [cite: 94, 175, 204]
+## 🛠️ Competencias Técnicas & Científicas
+
+* **Ciencia de Datos:** Python (Pandas, Scikit-learn, TensorFlow), SQL, RAG y Modelos de IA avanzados.
+* **Infraestructura Cloud:** Google Cloud (Vertex AI), AWS, Oracle Cloud, Docker y Kubernetes.
+* **Salud y Bienestar:** Neuropsicología clínica, intervención basada en datos y bioestadística.
+
+---
+
+## 🏅 Certificaciones Destacadas
+* **Google Gemini Immersion** | Google & Alura
+* **Prompt Engineering Avanzado** (Gemini, Claude, DeepSeek)
+* **Oracle Cloud Infrastructure:** Data, Security & Governance
+* **IA Generativa con AWS**
+
+---
+
+<button onclick="window.print()" class="btn-print">🖨️ Descargar como PDF Profesional</button>
