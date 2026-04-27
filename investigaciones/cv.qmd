@@ -7,9 +7,9 @@ format:
     css: cv.css
     toc: false
 ---
-
-# Carlos Alberto Villa Tobón
 [← Volver al Núcleo del Portafolio](/)
+# Carlos Alberto Villa Tobón
+
 
 **Neurocientifico | Cientifico de Datos | AI/MLOps Engineer | Psicólogo Clínico | Ing en Biotecnologia**
 *Ciudad de México* | [carlosvillatobon@gmail.com](mailto:carlosvillatobon@gmail.com) | +52 55 1064 5143
