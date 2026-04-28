@@ -1,52 +1,138 @@
-/* Estilo Científico de Alta Legibilidad */
+/* ==========================================
+   ESTÉTICA CIENTÍFICA MINIMALISTA
+   Perfil: Carlos Alberto Villa Tobón
+   ========================================== */
+
 body {
     background-color: #ffffff;
-    color: #1a202c;
-    font-family: 'Inter', -apple-system, sans-serif;
-    line-height: 1.7;
-    max-width: 850px;
+    color: #1e293b;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
     margin: 0 auto;
-    padding: 60px 40px;
+    padding: 40px;
 }
 
+/* Cabecera de Navegación (Volver al Núcleo) */
+.nav-header {
+    margin-bottom: 40px;
+    border-bottom: 1px solid #e2e8f0;
+    padding-bottom: 15px;
+}
+
+.nav-header a {
+    color: #64748b;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.2s ease;
+}
+
+.nav-header a:hover {
+    color: #0369a1;
+    padding-left: 5px;
+}
+
+/* Tipografía de Encabezados */
 h1 {
-    color: #111827;
-    font-size: 2.5rem;
+    color: #0f172a;
+    font-size: 2.8rem;
     font-weight: 800;
-    margin-bottom: 0.5rem;
-    letter-spacing: -0.025em;
+    margin: 0 0 10px 0;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
 }
 
 h2 {
-    color: #0369a1; /* Azul científico sobrio */
-    font-size: 1.25rem;
+    color: #0369a1; /* Azul Institucional/Científico */
+    font-size: 1.2rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    border-bottom: 2px solid #e5e7eb;
+    border-bottom: 2px solid #f1f5f9;
     padding-bottom: 8px;
-    margin-top: 2.5rem;
+    margin-top: 45px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
 }
 
-strong { color: #111827; }
+h3 {
+    color: #1e293b;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
 
-ul { padding-left: 1.5rem; }
+/* Elementos de Texto y Listas */
+p {
+    margin-bottom: 15px;
+}
 
-li { margin-bottom: 0.5rem; }
+ul {
+    margin-bottom: 20px;
+    padding-left: 1.2rem;
+}
 
+li {
+    margin-bottom: 8px;
+}
+
+/* Enlaces de Contacto (Email, LinkedIn) */
+a {
+    color: #0369a1;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s;
+}
+
+a:hover {
+    border-bottom-color: #0369a1;
+}
+
+/* Botón de Impresión Profesional */
 .btn-print {
-    background: #0369a1;
-    color: white;
+    background-color: #0f172a;
+    color: #ffffff;
     border: none;
-    padding: 12px 24px;
-    border-radius: 6px;
+    padding: 14px 28px;
+    border-radius: 8px;
     cursor: pointer;
     font-weight: 600;
-    margin-top: 40px;
-    font-size: 14px;
+    margin-top: 60px;
+    font-size: 1rem;
+    transition: transform 0.1s, background-color 0.2s;
+    display: block;
+    width: fit-content;
 }
 
+.btn-print:hover {
+    background-color: #334155;
+    transform: translateY(-2px);
+}
+
+.btn-print:active {
+    transform: translateY(0);
+}
+
+/* Configuración para Impresión en Papel (PDF) */
 @media print {
-    body { padding: 0; }
-    .btn-print { display: none; }
+    .nav-header, .btn-print {
+        display: none !important;
+    }
+    body {
+        padding: 0;
+        margin: 0;
+        color: #000000;
+    }
+    h2 {
+        border-bottom: 1px solid #cccccc;
+        color: #000000;
+    }
+    a {
+        color: #000000;
+    }
 }
