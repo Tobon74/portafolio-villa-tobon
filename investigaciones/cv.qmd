@@ -1,6 +1,4 @@
 ---
-title: "CURRICULUM VITAE"
-author: "Carlos Alberto Villa Tobón"
 format:
   html:
     theme: none
@@ -8,20 +6,23 @@ format:
     toc: false
 ---
 
-# Carlos Alberto Villa Tobón
-[← Volver al Núcleo del Portafolio](/)
+::: {.nav-header}
+[← Volver al Núcleo del Portafolio](../)
+:::
 
-**Neurocientifico | Cientifico de Datos | AI/MLOps Engineer | Psicólogo Clínico | Ing en Biotecnologia**
+# Carlos Alberto Villa Tobón
+
+**Neurocientífico | Científico de Datos | AI/MLOps Engineer | Psicólogo Clínico | Ing. en Biotecnología**
 *Ciudad de México* | [carlosvillatobon@gmail.com](mailto:carlosvillatobon@gmail.com) | +52 55 1064 5143
 
 ---
 
-## 👨‍🔬 Perfil Profesional
+## 👨‍🔬 PERFIL PROFESIONAL
 Perfil multidisciplinario con sólida formación en Ingeniería en Sistemas, Neurociencias y Psicología Clínica. Especialista en el desarrollo de arquitecturas de agentes de IA (Gemini) y Ciencia de Datos aplicada al comportamiento humano. Mi enfoque integra el rigor técnico de la ingeniería con el análisis clínico profundo para desarrollar soluciones de salud mental y biotecnología basadas en evidencia.
 
 ---
 
-## 🎓 Formación Académica Superior
+## 🎓 FORMACIÓN ACADÉMICA SUPERIOR
 
 ### Posgrado y Grado
 * **Maestría en Ciencia de Datos** – UTEL (En curso)
@@ -37,7 +38,7 @@ Perfil multidisciplinario con sólida formación en Ingeniería en Sistemas, Neu
 
 ---
 
-## 💼 Experiencia Profesional Relevante
+## 💼 EXPERIENCIA PROFESIONAL RELEVANTE
 
 ### Psicólogo Clínico e Investigador de IA Aplicada
 *Consultorio Privado | 2023 – Actualidad*
@@ -47,28 +48,12 @@ Perfil multidisciplinario con sólida formación en Ingeniería en Sistemas, Neu
 
 ### Consultor de Innovación | L'Oréal Professionnel Paris
 *2015 – 2020*
-* Implementación de estrategias de posicionamiento de marca basadas en el análisis de datos comerciales y tendencias de mercado de alta escala.
+* Estrategia basada en datos para el posicionamiento de marca y análisis de tendencias de mercado.
 
 ### Líder de Proyecto e Innovación | Expo Batalla de los Barberos LATAM
 *2015 – 2020*
-* Dirección de proyectos tecnológicos y coordinación de equipos multidisciplinarios bajo marcos de trabajo ágiles (Scrum).
+* Dirección de proyectos tecnológicos y coordinación de equipos bajo marcos de trabajo ágiles (Scrum).
 
 ---
 
-## 🛠️ Competencias Técnicas & Científicas
-
-* **Ciencia de Datos:** Python (Pandas, Scikit-learn, TensorFlow), SQL, RAG y Modelos de IA avanzados.
-* **Infraestructura Cloud:** Google Cloud (Vertex AI), AWS, Oracle Cloud, Docker y Kubernetes.
-* **Salud y Bienestar:** Neuropsicología clínica, intervención basada en datos y bioestadística.
-
----
-
-## 🏅 Certificaciones Destacadas
-* **Google Gemini Immersion** | Google & Alura
-* **Prompt Engineering Avanzado** (Gemini, Claude, DeepSeek)
-* **Oracle Cloud Infrastructure:** Data, Security & Governance
-* **IA Generativa con AWS**
-
----
-
-<button onclick="window.print()" class="btn-print">🖨️ Descargar como PDF Profesional</button>
+<button onclick="window.print()" class="btn-print">🖨️ Descargar PDF Profesional</button>
